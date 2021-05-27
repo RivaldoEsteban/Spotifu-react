@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Spotifu-react/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/Spotifu-react/static/js/main.89edbb80.chunk.js",
+    "main.js.map": "/Spotifu-react/static/js/main.89edbb80.chunk.js.map",
+    "runtime-main.js": "/Spotifu-react/static/js/runtime-main.ce855b56.js",
+    "runtime-main.js.map": "/Spotifu-react/static/js/runtime-main.ce855b56.js.map",
+    "static/js/2.8691a39f.chunk.js": "/Spotifu-react/static/js/2.8691a39f.chunk.js",
+    "static/js/2.8691a39f.chunk.js.map": "/Spotifu-react/static/js/2.8691a39f.chunk.js.map",
+    "static/js/3.1e94b122.chunk.js": "/Spotifu-react/static/js/3.1e94b122.chunk.js",
+    "static/js/3.1e94b122.chunk.js.map": "/Spotifu-react/static/js/3.1e94b122.chunk.js.map",
+    "index.html": "/Spotifu-react/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/Spotifu-react/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.8691a39f.chunk.js.LICENSE.txt": "/Spotifu-react/static/js/2.8691a39f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce855b56.js",
+    "static/js/2.8691a39f.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.89edbb80.chunk.js"
+  ]
+}
