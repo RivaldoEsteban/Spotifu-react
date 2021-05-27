@@ -1,0 +1,38 @@
+.slider {
+  background: rgba(255, 255, 255, 0.2);
+  block-size: 0.25rem;
+  /* inline-size: 200px; */
+  border-radius: 0.5rem;
+}
+
+.slider:hover .slider-progress {
+  background: var(--primary);
+}
+
+.slider:hover .slider-button {
+  display: block;
+}
+
+.slider-progress {
+  block-size: inherit;
+  border-radius: inherit;
+  background: var(--white);
+  inline-size: 20%;
+  position: relative;
+}
+
+.slider-button {
+  position: absolute;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  /* bottom: ; */
+  block-size: 200%;
+  aspect-ratio: 1/1;
+  border: none;
+  background: var(--white);
+  border-radius: 50%;
+  outline: none;
+  padding: 0;
+  display: none;
+}

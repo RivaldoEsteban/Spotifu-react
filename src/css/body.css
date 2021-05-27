@@ -1,0 +1,14 @@
+.body {
+  background: var(--gray50);
+  color: var(--gray10);
+  font-size: var(--baseFont);
+  margin: 0;
+  font-family: var(--basefontFamily);
+}
+
+.display-pause {
+  display: none;
+}
+
+.display-play {
+}

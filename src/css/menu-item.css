@@ -1,0 +1,32 @@
+.menuIten {
+}
+
+.menuIten a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: var(--button);
+  padding-inline: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 5px;
+}
+.menuIten a:hover {
+  text-decoration: none;
+}
+
+.menuIten [class^="icon-"] {
+  font-size: 1.5rem;
+}
+
+.menuIten.is-active a {
+  box-shadow: inset 4px 0 0px var(--primary);
+  color: var(--white);
+}
+
+.menuIten.menuIten.is-active .icon-home::before {
+  content: "\e909";
+}
+
+.menuIten.menuIten.is-active .icon-search::before {
+  content: "\e913";
+}

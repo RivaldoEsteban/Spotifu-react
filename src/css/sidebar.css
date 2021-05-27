@@ -1,0 +1,12 @@
+@import "./logo.css";
+@import "./menu.css";
+@import "./list.css";
+@import "./ellipsis.css";
+
+.sidebar {
+  background: var(--gray60);
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  padding-block: 1.5rem;
+}

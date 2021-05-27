@@ -1,0 +1,14 @@
+.logo {
+  padding-inline: 1rem;
+}
+
+.logo-image {
+  inline-size: 7rem;
+  block-size: 2rem;
+}
+
+@supports not (backdrop-filter: blur(8px)) {
+  .logo {
+    margin: 1.25rem 1rem 1.5rem;
+  }
+}
