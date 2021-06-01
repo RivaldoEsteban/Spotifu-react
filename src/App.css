@@ -1,45 +1,31 @@
-.list {
-  padding-inline: 1.5rem;
+.grid {
+  /* background: red; */
+  display: grid;
+  grid-template-rows: calc(100vh - 5.5rem) 5.5rem;
+  grid-template-columns: 15rem calc(100vw - 15rem);
+  grid-template-areas:
+    "sidebar main"
+    "player player";
 }
 
-.list-title {
-  font: var(--baseFont);
-  color: var(--gray10);
-  margin-block-end: 0.5rem;
-  margin-block-start: 0;
+.player-container {
+  grid-area: player;
 }
 
-.list-content {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.sidebar-container {
+  grid-area: sidebar;
+  overflow: auto;
 }
 
-.list-item a {
-  font: var(--baseFontBold);
-  transition: color 0.2s;
-}
-
-@supports not (backdrop-filter: blur(8px)) {
-  .list {
-    margin-bottom: 1.5rem;
-  }
-}
-@supports not (backdrop-filter: blur(8px)) {
-  .list-title {
-    margin: 0 1rem;
-  }
-}
-@supports not (backdrop-filter: blur(8px)) {
-  .list-content {
-    margin: 0 1rem 1rem;
-  }
-}
-@supports not (backdrop-filter: blur(8px)) {
-  .list-item {
-    margin: 0.2rem 0;
-  }
+.main-container {
+  grid-area: main;
+  overflow: auto;
+  background: linear-gradient(
+      181.17deg,
+      rgba(47, 47, 47, 0) -35.3%,
+      #171717 66.2%
+    ),
+    url("https://sonar.es/system/attached_images/26484/medium/badbunny_3er_lanzamiento_900x528.jpg?1551351423")
+      no-repeat center;
+  background-size: cover;
 }

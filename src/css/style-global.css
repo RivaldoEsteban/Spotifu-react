@@ -1,0 +1,18 @@
+.layout-block {
+  display: flex;
+}
+.footer-container {
+  block-size: 5.5rem;
+  background: #181818;
+  flex: 1;
+  display: flex;
+}
+
+.layout-main {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

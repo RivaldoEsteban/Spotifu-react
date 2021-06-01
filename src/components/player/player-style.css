@@ -1,0 +1,12 @@
+.player {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  box-shadow: inset 0px 1px 0 var(--gray30);
+  inline-size: 100%;
+  box-sizing: border-box;
+}
+
+.player > * {
+  flex: 1;
+}

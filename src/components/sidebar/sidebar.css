@@ -1,0 +1,86 @@
+.layout-sidebar {
+  inline-size: 15rem;
+  min-block-size: 37.5rem;
+  /* background: #000000; */
+  overflow: auto;
+  flex-shrink: 0;
+  background: var(--white);
+  block-size: calc(100vh - 5.5rem);
+}
+
+.sidebar {
+  background: var(--gray60);
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  padding-block: 1.5rem;
+}
+.logo {
+  padding-inline: 1rem;
+}
+.logo-image {
+  inline-size: 7rem;
+  block-size: 2rem;
+}
+.menuIten [class^="icon-"] {
+  font-size: 1.5rem;
+}
+.menuIten.is-active a {
+  box-shadow: inset 4px 0 0px var(--primary);
+  color: var(--white);
+}
+.link {
+  color: var(--gray10);
+  text-decoration: none;
+}
+.menuIten a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: var(--button);
+  padding-inline: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 5px;
+}
+
+.list {
+  padding-inline: 1.5rem;
+}
+
+.list-title {
+  font: var(--baseFont);
+  color: var(--gray10);
+  margin-block-end: 0.5rem;
+  margin-block-start: 0;
+}
+
+.list-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-item a {
+  font: var(--baseFontBold);
+  transition: color 0.2s;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ellipsis {
+  overflow: hidden;
+}
+
+.ellipsis a {
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

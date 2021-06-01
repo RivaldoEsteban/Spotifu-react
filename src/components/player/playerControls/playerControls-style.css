@@ -1,0 +1,72 @@
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.playerControls-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.playerPlayback {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.buttonIcon {
+  background: transparent;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--gray10);
+}
+
+.buttonIcon.is-white {
+  background: white;
+  color: var(--gray50);
+}
+.playerPlayback-progressTime {
+  color: var(--white);
+  font: var(--smallFont);
+  line-height: 1;
+  position: relative;
+  top: 1px;
+}
+.playerPlayback-slider {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+.slider {
+  background: rgba(255, 255, 255, 0.2);
+  block-size: 0.25rem;
+  border-radius: 0.5rem;
+}
+.slider-progress {
+  block-size: inherit;
+  border-radius: inherit;
+  background: var(--white);
+  inline-size: 20%;
+  position: relative;
+}
+
+.slider-button {
+  position: absolute;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  block-size: 200%;
+  aspect-ratio: 1/1;
+  border: none;
+  background: var(--white);
+  border-radius: 50%;
+  outline: none;
+  padding: 0;
+  display: none;
+}

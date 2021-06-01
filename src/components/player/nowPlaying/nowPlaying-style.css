@@ -1,0 +1,39 @@
+.nowPlaying {
+  display: flex;
+  align-items: center;
+}
+.nowPlaying-details {
+  display: flex;
+  align-items: center;
+}
+
+.nowPlaying-cover img {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  vertical-align: middle;
+}
+
+.nowPlaying-description {
+  margin: 0 1.5rem 0 0.5rem;
+}
+.nowPlaying-artist {
+  color: var(--gray10);
+  font: var(--smallFont);
+}
+.nowPlaying-title {
+  color: var(--white);
+  font: var(--baseFontBold);
+}
+.nowPlaying-description a {
+  text-decoration: none;
+  display: block;
+}
+
+.player-control {
+  border: none;
+  padding: 0.5rem;
+  background: none;
+  font-size: 1.2rem;
+  color: var(--gray10);
+  cursor: pointer;
+}
