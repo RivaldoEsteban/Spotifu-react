@@ -12,7 +12,7 @@ function Menu() {
           </Link>
         </li>
         <li className="menuIten ">
-          <Link to="/songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             <i className="icon-search" aria-hidden="true"></i>
             <span>Buscar</span>
           </Link>

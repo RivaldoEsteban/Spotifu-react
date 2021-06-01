@@ -29,7 +29,7 @@ function App() {
               <Route path="/" exact>
                 <Main />
               </Route>
-              <Route path="/songs-album" exact>
+              <Route path="/Spotifu-react/songs-album" exact>
                 <SongPage songs={Songs} />
               </Route>
             </Switch>
