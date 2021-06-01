@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Spotifu-react/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Spotifu-react/static/js/main.89edbb80.chunk.js",
-    "main.js.map": "/Spotifu-react/static/js/main.89edbb80.chunk.js.map",
-    "runtime-main.js": "/Spotifu-react/static/js/runtime-main.ce855b56.js",
-    "runtime-main.js.map": "/Spotifu-react/static/js/runtime-main.ce855b56.js.map",
-    "static/js/2.8691a39f.chunk.js": "/Spotifu-react/static/js/2.8691a39f.chunk.js",
-    "static/js/2.8691a39f.chunk.js.map": "/Spotifu-react/static/js/2.8691a39f.chunk.js.map",
-    "static/js/3.1e94b122.chunk.js": "/Spotifu-react/static/js/3.1e94b122.chunk.js",
-    "static/js/3.1e94b122.chunk.js.map": "/Spotifu-react/static/js/3.1e94b122.chunk.js.map",
+    "main.css": "/Spotifu-react/static/css/main.34ba866f.chunk.css",
+    "main.js": "/Spotifu-react/static/js/main.f055646d.chunk.js",
+    "main.js.map": "/Spotifu-react/static/js/main.f055646d.chunk.js.map",
+    "runtime-main.js": "/Spotifu-react/static/js/runtime-main.2b800680.js",
+    "runtime-main.js.map": "/Spotifu-react/static/js/runtime-main.2b800680.js.map",
+    "static/js/2.cb653e72.chunk.js": "/Spotifu-react/static/js/2.cb653e72.chunk.js",
+    "static/js/2.cb653e72.chunk.js.map": "/Spotifu-react/static/js/2.cb653e72.chunk.js.map",
+    "static/js/3.937541ff.chunk.js": "/Spotifu-react/static/js/3.937541ff.chunk.js",
+    "static/js/3.937541ff.chunk.js.map": "/Spotifu-react/static/js/3.937541ff.chunk.js.map",
     "index.html": "/Spotifu-react/index.html",
-    "static/css/main.ea1455b2.chunk.css.map": "/Spotifu-react/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.8691a39f.chunk.js.LICENSE.txt": "/Spotifu-react/static/js/2.8691a39f.chunk.js.LICENSE.txt"
+    "static/css/main.34ba866f.chunk.css.map": "/Spotifu-react/static/css/main.34ba866f.chunk.css.map",
+    "static/js/2.cb653e72.chunk.js.LICENSE.txt": "/Spotifu-react/static/js/2.cb653e72.chunk.js.LICENSE.txt",
+    "static/media/icons.css": "/Spotifu-react/static/media/icomoon.f962188a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce855b56.js",
-    "static/js/2.8691a39f.chunk.js",
-    "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.89edbb80.chunk.js"
+    "static/js/runtime-main.2b800680.js",
+    "static/js/2.cb653e72.chunk.js",
+    "static/css/main.34ba866f.chunk.css",
+    "static/js/main.f055646d.chunk.js"
   ]
 }
