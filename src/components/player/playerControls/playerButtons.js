@@ -1,8 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import { CurrentPlaying } from "../../../app";
 
 function PlayerButtons({ songData, isPlaying }) {
   const currentPlaying = useContext(CurrentPlaying);
+  const mp3 = useRef(null);
+  console.log(mp3.current);
+  const audio = mp3.current;
+  console.log("audio", audio);
+
+  if (audio) {
+    if (isPlaying) {
+      audio.src = songData.track;
+      console.log("play");
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+
   function handleClick() {
     currentPlaying.setCurrentPlaying({
       id: songData.id,
@@ -15,7 +30,7 @@ function PlayerButtons({ songData, isPlaying }) {
       className="playerControls-buttons"
       aria-label="Controles de reproducción"
     >
-      <audio autoPlay src={isPlaying ? songData.track : ""}></audio>
+      <audio ref={mp3}></audio>
       <button className="buttonIcon">
         <i className="icon-prev " aria-label="Anterior"></i>
       </button>
