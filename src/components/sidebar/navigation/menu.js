@@ -6,7 +6,7 @@ function Menu() {
     <nav className="menu" aria-label="Menu">
       <ul className="menu-list">
         <li className="menuIten is-active">
-          <Link to="/Spotifu-react" className="link" aria-current="page">
+          <Link to="/Spotifu-react/" className="link" aria-current="page">
             <i className="icon-home" aria-hidden="true"></i>
             <span>Inicio</span>
           </Link>

@@ -12,7 +12,7 @@ function Header() {
         >
           <div className="navigation">
             <div className="navigation-buttons-container">
-              <Link to="/Spotifu-react">
+              <Link to="/Spotifu-react/">
                 <button
                   className="navigation-prev"
                   aria-label="volver"
