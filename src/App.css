@@ -20,12 +20,4 @@
 .main-container {
   grid-area: main;
   overflow: auto;
-  background: linear-gradient(
-      181.17deg,
-      rgba(47, 47, 47, 0) -35.3%,
-      #171717 66.2%
-    ),
-    url("https://sonar.es/system/attached_images/26484/medium/badbunny_3er_lanzamiento_900x528.jpg?1551351423")
-      no-repeat center;
-  background-size: cover;
 }

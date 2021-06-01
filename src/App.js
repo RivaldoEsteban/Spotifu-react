@@ -26,10 +26,10 @@ function App() {
           </div>
           <div className="main-container">
             <Switch>
-              <Route path="/songs-album" exact>
+              <Route path="/Spotifu-react/songs-album" exact>
                 <SongPage songs={Songs} />
               </Route>
-              <Route path="/" exact>
+              <Route path="/Spotifu-react/" exact>
                 <Main />
               </Route>
             </Switch>
