@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Content() {
   return (
     <div className="playlistList-content">
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -28,7 +28,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -52,7 +52,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -76,7 +76,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -100,7 +100,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -124,7 +124,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -148,7 +148,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -172,7 +172,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -196,7 +196,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -220,7 +220,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -244,7 +244,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -268,7 +268,7 @@ function Content() {
           </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img

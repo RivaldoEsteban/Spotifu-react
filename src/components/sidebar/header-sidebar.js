@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header className="logo">
-      <a href="/" aria-current="pag">
+      <a href="/Spotifu-react" aria-current="pag">
         <img
           src="./images/spotifu-logo.png"
           className="logo-image"

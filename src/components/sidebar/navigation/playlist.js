@@ -8,39 +8,39 @@ function Playlist() {
       <ul className="list-content">
         <li className="list-item">
           <span className="ellipsis">
-            <Link to="/songs-album" className="link">
+            <Link to="/Spotifu-react/songs-album" className="link">
               Naruto al 100% para prog Naruto al 100% para prog Naruto al 100%
               para prog
             </Link>
           </span>
         </li>
         <li className="list-item">
-          <Link to="/songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             Naruto al 100% para progr…
           </Link>
         </li>
         <li className="list-item">
-          <Link to="/songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             Para cantar en la ducha
           </Link>
         </li>
         <li className="list-item">
-          <Link to="/songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             Sin parar
           </Link>
         </li>
         <li className="list-item">
-          <Link to="/songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             Naruto openings
           </Link>
         </li>
         <li className="list-item">
-          <Link to="./songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             Boku no pico
           </Link>
         </li>
         <li className="list-item">
-          <Link to="./songs-album" className="link">
+          <Link to="/Spotifu-react/songs-album" className="link">
             This is Pokémon
           </Link>
         </li>

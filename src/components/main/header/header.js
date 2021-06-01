@@ -12,7 +12,7 @@ function Header() {
         >
           <div className="navigation">
             <div className="navigation-buttons-container">
-              <Link to="/">
+              <Link to="/Spotifu-react">
                 <button
                   className="navigation-prev"
                   aria-label="volver"
@@ -21,7 +21,7 @@ function Header() {
                   <i className="icon-arrowLeft" aria-hidden="true"></i>
                 </button>
               </Link>
-              <Link to="/songs-album">
+              <Link to="/Spotifu-react/songs-album">
                 <button
                   className="navigation-next"
                   disabled

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Content() {
   return (
     <div className="playlistList-content">
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -25,7 +25,7 @@ function Content() {
           <h4 className="playlist-description">Spotify studios</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -47,7 +47,7 @@ function Content() {
           <h4 className="playlist-description">Dudas Media</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -69,7 +69,7 @@ function Content() {
           <h4 className="playlist-description">Spotify production</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -91,7 +91,7 @@ function Content() {
           <h4 className="playlist-description">Mia Nauca y omar </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -113,7 +113,7 @@ function Content() {
           <h4 className="playlist-description">en cortinas con luis</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -135,7 +135,7 @@ function Content() {
           <h4 className="playlist-description">podcast humoristico</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -157,7 +157,7 @@ function Content() {
           <h4 className="playlist-description">Spotify studios</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -179,7 +179,7 @@ function Content() {
           <h4 className="playlist-description">Dudas Media</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -201,7 +201,7 @@ function Content() {
           <h4 className="playlist-description">Spotify production</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -223,7 +223,7 @@ function Content() {
           <h4 className="playlist-description">Mia Nauca y omar </h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img
@@ -245,7 +245,7 @@ function Content() {
           <h4 className="playlist-description">en cortinas con luis</h4>
         </div>
       </Link>
-      <Link to="./songs-album">
+      <Link to="/Spotifu-react/songs-album">
         <div className="playlistA">
           <div className="playlistA-cover">
             <img

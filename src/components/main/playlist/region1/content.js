@@ -30,7 +30,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -55,7 +55,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -80,7 +80,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -105,7 +105,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -130,7 +130,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -157,7 +157,7 @@ function ContentSection() {
         </Link>
       </div>
       <div className="playlistList-content">
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -182,7 +182,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -207,7 +207,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -232,7 +232,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -257,7 +257,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
@@ -282,7 +282,7 @@ function ContentSection() {
             </div>
           </div>
         </Link>
-        <Link to="./songs-album">
+        <Link to="/Spotifu-react/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
