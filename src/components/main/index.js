@@ -10,7 +10,7 @@ import "../../css/style-global.css";
 
 function Main() {
   return (
-    <div className="page">
+    <div className="main">
       <Header />
       <main className="page-block">
         <Inicio />

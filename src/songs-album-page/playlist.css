@@ -47,7 +47,8 @@
 }
 
 .listSong-artist {
-  block-size: calc(100% - 25rem);
+  /* block-size: calc(100vh - 25rem); */
+  flex: 1;
   overflow: auto;
   padding-left: 2rem;
 }

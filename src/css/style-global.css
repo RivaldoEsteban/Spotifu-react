@@ -9,8 +9,6 @@
 }
 
 .layout-main {
-  block-size: calc(100vh - var(--bottomSize));
-  min-block-size: var(--minBlockSize);
   overflow: auto;
   display: flex;
   flex-direction: column;

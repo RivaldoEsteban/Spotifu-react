@@ -5,11 +5,9 @@ import Navigation from "./navigation/index";
 
 function SideBar() {
   return (
-    <div className="layout-sidebar">
-      <div className="sidebar">
-        <Header />
-        <Navigation />
-      </div>
+    <div className="sidebar">
+      <Header />
+      <Navigation />
     </div>
   );
 }

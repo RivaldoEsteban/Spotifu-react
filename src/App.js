@@ -21,22 +21,16 @@ function App() {
     <CurrentPlaying.Provider value={currentPlayingContext}>
       <BrowserRouter>
         <div className="grid">
-          <div className="sidebar-container">
-            <SideBar />
-          </div>
-          <div className="main-container">
-            <Switch>
-              <Route path="/Spotifu-react/" exact>
-                <Main />
-              </Route>
-              <Route path="/Spotifu-react/songs-album" exact>
-                <SongPage songs={Songs} />
-              </Route>
-            </Switch>
-          </div>
-          <div className="player-container">
-            <Player songs={Songs} />
-          </div>
+          <SideBar />
+          <Switch>
+            <Route path="/Spotifu-react/" exact>
+              <Main />
+            </Route>
+            <Route path="/Spotifu-react/songs-album" exact>
+              <SongPage songs={Songs} />
+            </Route>
+          </Switch>
+          <Player songs={Songs} />
         </div>
       </BrowserRouter>
     </CurrentPlaying.Provider>

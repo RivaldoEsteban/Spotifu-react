@@ -1,28 +1,33 @@
 .grid {
-  /* background: red; */
+  block-size: 100vh;
   display: grid;
-  grid-template-rows: calc(100vh - 5.5rem) 5.5rem;
+  grid-template-rows: 1fr auto;
   grid-template-columns: 15rem calc(100vw - 15rem);
   grid-template-areas:
     "sidebar main"
     "player player";
 }
 
-.player-container {
+.player {
   grid-area: player;
 }
 
-.sidebar-container {
+.grid .sidebar {
   grid-area: sidebar;
   overflow: auto;
 }
 
-.main-container {
+.grid .main {
   grid-area: main;
+
   overflow: auto;
 }
 
-.layout-main {
+.grid .main.songlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
   background: linear-gradient(
       181.17deg,
       rgba(47, 47, 47, 0) -35.3%,
