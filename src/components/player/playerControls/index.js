@@ -10,7 +10,7 @@ function PlayerControls({
   currentProgress,
   totalTime,
   setCurrentAudioTime,
-  totalTimeSong,
+  songDuration,
 }) {
   return (
     <div className="player-playerControls">
@@ -23,7 +23,7 @@ function PlayerControls({
           currentProgress={currentProgress}
           totalTime={totalTime}
           setCurrentAudioTime={setCurrentAudioTime}
-          totalTimeSong={totalTimeSong}
+          songDuration={songDuration}
         />
       </div>
     </div>

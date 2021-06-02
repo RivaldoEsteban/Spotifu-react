@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 
 function Playback({
   songData,
@@ -6,10 +6,16 @@ function Playback({
   currentProgress,
   totalTime,
   setCurrentAudioTime,
-  totalTimeSong,
+  songDuration,
 }) {
+  // console.log(songDuration);
+  const songDurationMinutes = Math.floor(songDuration / 60);
+  const songDurationSegundes = Math.floor(
+    (songDuration % 60).toString().padStart(2, "00")
+  );
   const slider = useRef(null);
   const realTime = useRef(null);
+
   function handleClick(event) {
     const sliderWidth = slider.current.offsetWidth; //100% del slider en px
     const currentSliderPoint = event.clientX - slider.current.offsetLeft;
@@ -46,7 +52,7 @@ function Playback({
         </div>
       </div>
       <span className="playerPlayback-progressTime">
-        {songData ? totalTimeSong() : "3:10"}
+        {`${songDurationMinutes}:${songDurationSegundes}`}
       </span>
     </div>
   );

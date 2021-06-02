@@ -56,6 +56,13 @@
   inline-size: 0%;
   position: relative;
 }
+.slider-progress.volume {
+  inline-size: 100%;
+  cursor: pointer;
+}
+.slider-progress.volume:hover {
+  background: var(--primary);
+}
 
 .slider-button {
   position: absolute;
@@ -69,4 +76,5 @@
   border-radius: 50%;
   outline: none;
   padding: 0;
+  cursor: pointer;
 }

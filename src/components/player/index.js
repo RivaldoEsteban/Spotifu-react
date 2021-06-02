@@ -31,8 +31,12 @@ function Player({ songs }) {
   const [currentTime, setCurrentTime] = useState("0:00");
   const [currentProgress, setCurrentProgress] = useState("");
   const [time, setTime] = useState("");
+  const [songDuration, setSongDuration] = useState("");
+  const [volume, setVolume] = useState("");
+
   useEffect(() => {
     setInterval(() => {
+      setVolume(mp3?.current);
       const time = mp3?.current?.currentTime;
       const minutes = Math.floor(time / 60);
       const segundos = Math.floor(time % 60)
@@ -41,16 +45,17 @@ function Player({ songs }) {
       setCurrentTime(`${minutes}:${segundos}`);
       const progress = (time * 100) / mp3?.current?.duration;
       const totalTime = mp3?.current?.duration;
+      const songDuration = mp3?.current?.duration;
+      // const volume = mp3?.current?.volume;
       setCurrentProgress(progress);
       setTime(Math.floor(totalTime));
+      setSongDuration(songDuration);
+      // setVolume(volume);
     }, 1000);
   }, []);
 
   function setCurrentAudioTime(currentTime) {
     mp3.current.currentTime = currentTime;
-  }
-  function totalTimeSong() {
-    console.log(mp3);
   }
 
   if (!song) {
@@ -68,9 +73,9 @@ function Player({ songs }) {
         currentProgress={currentProgress}
         totalTime={time}
         setCurrentAudioTime={setCurrentAudioTime}
-        totalTimeSong={totalTimeSong}
+        songDuration={songDuration}
       />
-      <Volume songs={songs} />
+      <Volume songs={songs} volume={volume} setVolume={setVolume} />
     </footer>
   );
 }
