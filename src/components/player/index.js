@@ -20,7 +20,10 @@ function Player({ songs }) {
   useEffect(() => {
     const audio = mp3.current;
     if (audio) {
-      if (currentPlaying.value.isPlaying) {
+      if (
+        currentPlaying.value.isPlaying &&
+        song.id === currentPlaying.value.id
+      ) {
         audio.play();
       } else {
         audio.pause();
