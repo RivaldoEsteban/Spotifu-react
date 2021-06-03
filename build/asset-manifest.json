@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Spotifu-react/static/css/main.a3538337.chunk.css",
-    "main.js": "/Spotifu-react/static/js/main.495653be.chunk.js",
-    "main.js.map": "/Spotifu-react/static/js/main.495653be.chunk.js.map",
+    "main.css": "/Spotifu-react/static/css/main.ee656429.chunk.css",
+    "main.js": "/Spotifu-react/static/js/main.9d3398b7.chunk.js",
+    "main.js.map": "/Spotifu-react/static/js/main.9d3398b7.chunk.js.map",
     "runtime-main.js": "/Spotifu-react/static/js/runtime-main.2b800680.js",
     "runtime-main.js.map": "/Spotifu-react/static/js/runtime-main.2b800680.js.map",
-    "static/js/2.41ca2bce.chunk.js": "/Spotifu-react/static/js/2.41ca2bce.chunk.js",
-    "static/js/2.41ca2bce.chunk.js.map": "/Spotifu-react/static/js/2.41ca2bce.chunk.js.map",
+    "static/js/2.66f4198e.chunk.js": "/Spotifu-react/static/js/2.66f4198e.chunk.js",
+    "static/js/2.66f4198e.chunk.js.map": "/Spotifu-react/static/js/2.66f4198e.chunk.js.map",
     "static/js/3.937541ff.chunk.js": "/Spotifu-react/static/js/3.937541ff.chunk.js",
     "static/js/3.937541ff.chunk.js.map": "/Spotifu-react/static/js/3.937541ff.chunk.js.map",
     "index.html": "/Spotifu-react/index.html",
-    "static/css/main.a3538337.chunk.css.map": "/Spotifu-react/static/css/main.a3538337.chunk.css.map",
-    "static/js/2.41ca2bce.chunk.js.LICENSE.txt": "/Spotifu-react/static/js/2.41ca2bce.chunk.js.LICENSE.txt",
+    "static/css/main.ee656429.chunk.css.map": "/Spotifu-react/static/css/main.ee656429.chunk.css.map",
+    "static/js/2.66f4198e.chunk.js.LICENSE.txt": "/Spotifu-react/static/js/2.66f4198e.chunk.js.LICENSE.txt",
     "static/media/icons.css": "/Spotifu-react/static/media/icomoon.f962188a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2b800680.js",
-    "static/js/2.41ca2bce.chunk.js",
-    "static/css/main.a3538337.chunk.css",
-    "static/js/main.495653be.chunk.js"
+    "static/js/2.66f4198e.chunk.js",
+    "static/css/main.ee656429.chunk.css",
+    "static/js/main.9d3398b7.chunk.js"
   ]
 }

@@ -24,7 +24,7 @@ function App() {
           <SideBar />
           <Switch>
             <Route path="/Spotifu-react/" exact>
-              <Main />
+              <Main key="homepage" />
             </Route>
             <Route path="/Spotifu-react/songs-album" exact>
               <SongPage songs={Songs} />

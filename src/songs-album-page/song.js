@@ -16,9 +16,8 @@ function Song({ song }) {
       isPlaying: !playing,
     });
   }
-
   return (
-    <div className="song" id={song.id} key={song.key}>
+    <div className="song" key={song.key} id={song.id}>
       <div className="album-song-buttons-content">
         <button
           className="buttonIcon play"
@@ -29,7 +28,7 @@ function Song({ song }) {
         >
           <i
             className={playing ? "icon-pause" : "icon-play"}
-            id="icon-play1"
+            // id="icon-play1"
             aria-hidden="true"
           ></i>
         </button>

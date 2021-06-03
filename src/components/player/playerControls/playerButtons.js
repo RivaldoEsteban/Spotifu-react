@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useEffect } from "react";
+import React, { useContext } from "react";
 import { CurrentPlaying } from "../../../app";
 
 function PlayerButtons({ songData, isPlaying }) {

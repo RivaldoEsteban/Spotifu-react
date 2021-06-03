@@ -64,7 +64,7 @@ function Player({ songs }) {
 
   return (
     <footer className="player">
-      <audio ref={mp3} src={song?.track}></audio>
+      <audio autoPlay ref={mp3} src={song?.track}></audio>
       <NowPlaying songData={song} />
       <PlayerControls
         songData={song}

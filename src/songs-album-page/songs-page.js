@@ -24,7 +24,7 @@ function SongsPage({ songs }) {
   }
 
   return (
-    <main className="main songlist">
+    <main className="main songlist" key="playlist">
       <div className="header-titleAlbum-container">
         <div className="page">
           <div className="sticky">
