@@ -279,6 +279,19 @@ const songs = [
     idButton: "button-10",
     key: "key20",
   },
+  {
+    nameSong: "Yonaguni",
+    artista: "Bad Bunny",
+    album: "Yonaguni",
+    track: "tracks/yonaguni.mp3",
+    id: "song-21",
+    idIconPlay: "reproducir-21",
+    cover: "images/yonaguni.png",
+    time: "3:31",
+    idIconPause: "icon-pause21",
+    idButton: "button-21",
+    key: "key21",
+  },
 ];
 
 export default songs;
