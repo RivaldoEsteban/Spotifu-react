@@ -282,7 +282,7 @@ const songs = [
   {
     nameSong: "Yonaguni",
     artista: "Bad Bunny",
-    album: "Yonaguni",
+    album: "Yonaguni ",
     track: "tracks/yonaguni.mp3",
     id: "song-21",
     idIconPlay: "reproducir-21",

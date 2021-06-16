@@ -18,7 +18,10 @@ function Playback({
 
   function handleClick(event) {
     const sliderWidth = slider.current.offsetWidth; //100% del slider en px
+    console.log(sliderWidth);
+    console.log(event.clientX);
     const currentSliderPoint = event.clientX - slider.current.offsetLeft;
+    console.log(currentSliderPoint);
     const percentageClickSlider = (currentSliderPoint * 100) / sliderWidth;
 
     const newCurrentProgress = Math.floor(
