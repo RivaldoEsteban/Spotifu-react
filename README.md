@@ -4,4 +4,4 @@
 
 ### Este proyecto fue recreo una página de musica en la cual puedes seleccionar un album , y escuchar la canción de tu agrado.
 
-<img src="images/image-readme.png" alt="imagen para el readme">
+<img src="public/images/image-readme.png" alt="imagen para el readme">
