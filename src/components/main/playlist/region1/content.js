@@ -5,7 +5,7 @@ function ContentSection() {
   return (
     <div className="playlistList-container">
       <div className="playlistList-content">
-        <Link to="./songs-album">
+        <Link to="/songs-album">
           <div className="playlistB">
             <div className="playlistB-cover">
               <img
